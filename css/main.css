@@ -6,8 +6,48 @@ html {
   box-sizing: inherit;
 }
 
+html {
+  font-size: 100%;
+}
+
 .logo {
   max-width: 120px;
+}
+
+.bannerimg {
+object-fit: cover;
+width: 100%;
+max-height: 300px;
+}
+
+.top-images {
+  display: grid;
+  background-color: lightblue;
+  background-opacity: 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    ;
+    gap: 1rem;
+  }
+
+  .img1 {
+    grid-area: img1;
+  }
+
+  .img2 {
+    grid-area: img2;
+  }
+
+  .img3 {
+    grid-area: img3;
+  }
+
+  .img4 {
+    grid-area: img4;
 }
 
 main {
@@ -16,13 +56,15 @@ main {
 
 img {
   width: 100%;
+
 }
-/* .title {
+
+.title {
+  color: #ffff;
   margin: 0 auto;
-  background-repeat: no-repeat;
-  /* background-image: "images/page-1/sunset.jpg"; */
-  /* background: cover;
-  height: 500px; */ */
+  position: absolute;
+  top: 25%;
+  z-index: 9;
 }
 
 body {
@@ -122,6 +164,7 @@ nav a {
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0;
+/*   transition: opacity 150ms ease-in-out; */
   transition: opacity 250ms ease-in-out 250ms;
 }
 
