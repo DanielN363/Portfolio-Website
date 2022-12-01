@@ -23,31 +23,35 @@ max-height: 300px;
 .top-images {
   display: grid;
   background-color: lightblue;
-  background-opacity: 50%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "img1"
-    "img2"
-    "img3"
-    "img4"
+    "text img"
+    "text img2"
     ;
-    gap: 1rem;
   }
 
-  .img1 {
-    grid-area: img1;
+  .img {
+    grid-area: img;
+    grid-gap: 1rem;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
   }
-
   .img2 {
     grid-area: img2;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
   }
 
-  .img3 {
-    grid-area: img3;
-  }
+.text {
+  grid-area: text;
+}
 
-  .img4 {
-    grid-area: img4;
+.btm-images {
+  display: grid;
+  max-height: 300px;
+  max-width: 100%;
 }
 
 main {
