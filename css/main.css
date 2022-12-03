@@ -22,36 +22,111 @@ max-height: 300px;
 
 .top-images {
   display: grid;
-  background-color: lightblue;
+  background-color: rgba(37, 106, 180, 1);
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "text img"
     "text img2"
+    "text img3"
+    "text img4"
     ;
   }
 
   .img {
     grid-area: img;
     grid-gap: 1rem;
-    width: 200px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     object-position: center;
+    padding: 1rem;
   }
   .img2 {
     grid-area: img2;
-    width: 200px;
+    grid-gap: 1rem;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     object-position: center;
+    padding: 1rem;
+  }
+
+  .img3 {
+    grid-area: img3;
+    grid-gap: 1rem;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+
+  .img4 {
+    grid-area: img4;
+    grid-gap: 1rem;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
   }
 
 .text {
   grid-area: text;
+  margin: 1rem;
+  max-width: 190px;
+  grid-gap: 1rem;
 }
 
 .btm-images {
   display: grid;
-  max-height: 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "img5 img6"
+    "img5 img7"
+    ;
+}
+
+.img5 {
+  grid-area: img5;
+  grid-gap: 1rem;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  padding: 1rem;
+}
+.img6 {
+  grid-area: img6;
+  grid-gap: 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  padding: 1rem;
+}
+
+.img7 {
+  grid-area: img7;
+  grid-gap: 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  padding: 1rem;
+}
+
+.text2 {
+  margin: 1rem;
   max-width: 100%;
+}
+
+.footer {
+  background-color: #2B7B70;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 main {
@@ -190,7 +265,7 @@ nav a:hover {
 
 
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 38em) {
   .nav-toggle-label {
     display: none;
   }
@@ -201,7 +276,7 @@ nav a:hover {
   }
 
   .logo {
-    grid-column: 2 / 3;
+    grid-column: 3 / 3;
   }
 
   nav {
