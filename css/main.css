@@ -34,6 +34,16 @@ max-height: 300px;
     ;
   }
 
+  .top-images3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "img1pg3 img2pg3"
+      "img3pg3 img4pg3"
+      "img5pg3 img6pg3"
+      ;
+    }
+
   .img {
     grid-area: img;
     grid-gap: 1rem;
@@ -93,6 +103,65 @@ max-height: 300px;
     padding: 1rem;
   }
 
+  .img1pg3 {
+    grid-area: img1pg3;
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+  .img2pg3 {
+    grid-area: img2pg3;
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+
+  .img3pg3 {
+    grid-area: img3pg3;
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+
+  .img4pg3 {
+    grid-area: img4pg3;
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+
+  .img5pg3 {
+    grid-area: img5pg3;
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+
+  .img6pg3 {
+    grid-area: img6pg3;
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 1rem;
+  }
+
 .text {
   grid-area: text;
   margin: 1rem;
@@ -140,7 +209,6 @@ max-height: 300px;
 
 .text2 {
   margin: 1rem;
-  max-width: 100%;
 }
 
 
@@ -348,6 +416,36 @@ grid-template-columns: 1fr 1fr 1fr;
 .img2pg2 {
   width: 250px;
   height: 500px;
+}
+
+.img1pg3 {
+max-width: 450px;
+max-height: 450px;
+}
+
+.img2pg3 {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.img3pg3 {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.img4pg3 {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.img5pg3 {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.img6pg3 {
+  max-width: 450px;
+  max-height: 450px;
 }
 
   header {
