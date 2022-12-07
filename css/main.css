@@ -34,14 +34,16 @@ max-height: 300px;
     ;
   }
 
-  .top-images3 {
+  .work {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "img1pg3 img2pg3"
-      "img3pg3 img4pg3"
-      "img5pg3 img6pg3"
-      ;
+      "work work2";
+    padding: 1rem;
+    gap: 1rem;
+    height: 30vw;
+    object-fit: cover;
+
     }
 
   .img {
@@ -103,15 +105,33 @@ max-height: 300px;
     padding: 1rem;
   }
 
-  .img1pg3 {
+  /* .work-1 {
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    place-items: center;
+    padding: 1rem;
+  }
+
+  .work-2 {
+    grid-gap: 1rem;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    place-items: center;
+    padding: 1rem;
+  } */
+
+  /* .img1pg3 {
     grid-area: img1pg3;
     grid-gap: 1rem;
     max-width: 200px;
     max-height: 200px;
     object-fit: cover;
     object-position: center;
-    padding: 1rem;
-  }
+    padding: 1rem; */
+  /* }
   .img2pg3 {
     grid-area: img2pg3;
     grid-gap: 1rem;
@@ -160,7 +180,7 @@ max-height: 300px;
     object-fit: cover;
     object-position: center;
     padding: 1rem;
-  }
+  } */
 
 .text {
   grid-area: text;
@@ -361,6 +381,11 @@ nav a:hover {
 @media screen and (min-width: 48em) {
   .nav-toggle-label {
     display: none;
+  }
+
+  .work {
+    grid-template-columns: 1fr 1fr 1fr;
+
   }
 
 .top-images {
