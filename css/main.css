@@ -10,6 +10,10 @@ html {
   font-size: 100%;
 }
 
+body {
+  font-family: 'open Sans', sans-serif;
+}
+
 .logo {
   max-width: 120px;
   min-width: 120px;
@@ -41,7 +45,6 @@ max-height: 300px;
       "work work2";
     padding: 1rem;
     gap: 1rem;
-    height: 30vw;
     object-fit: cover;
 
     }
@@ -232,11 +235,11 @@ max-height: 300px;
 }
 
 
-.footer {
+footer {
   background-color: #2B7B70;
   height: 50px;
-  left: 0;
-  bottom: 0;
+  /* left: 0;
+  bottom: 0; */
   width: 100%;
 }
 
