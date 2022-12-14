@@ -108,7 +108,7 @@ max-height: 300px;
     padding: 1rem;
   }
 
-  /* .work-1 {
+  /*.work-1 {
     grid-gap: 1rem;
     max-width: 200px;
     max-height: 200px;
@@ -126,64 +126,31 @@ max-height: 300px;
     padding: 1rem;
   } */
 
-  /* .img1pg3 {
-    grid-area: img1pg3;
-    grid-gap: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    padding: 1rem; */
-  /* }
+  .img1pg3 {
+    width: 200px;
+    height: 200px;
+   }
   .img2pg3 {
-    grid-area: img2pg3;
-    grid-gap: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    padding: 1rem;
+    width: 200px;
+    height: 200px;
   }
 
   .img3pg3 {
-    grid-area: img3pg3;
-    grid-gap: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    padding: 1rem;
+    width: 200px;
+    height: 200px;
   }
-
   .img4pg3 {
-    grid-area: img4pg3;
-    grid-gap: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    padding: 1rem;
+    width: 200px;
+    height: 200px;
   }
-
   .img5pg3 {
-    grid-area: img5pg3;
-    grid-gap: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    padding: 1rem;
+    width: 200px;
+    height: 200px;
   }
-
   .img6pg3 {
-    grid-area: img6pg3;
-    grid-gap: 1rem;
-    max-width: 200px;
-    max-height: 200px;
-    object-fit: cover;
-    object-position: center;
-    padding: 1rem;
-  } */
+    width: 200px;
+    height: 200px;
+  }
 
 .text {
   grid-area: text;
@@ -231,6 +198,7 @@ max-height: 300px;
 }
 
 .text2 {
+  display: grid;
   margin: 1rem;
 }
 
@@ -428,14 +396,18 @@ grid-template-columns: 1fr 1fr 1fr;
       ;
 }
 
+.img5 {
+  width: 250px;
+  height: 250px;
+}
 .img6 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .img7 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .imgpg2 {
@@ -449,33 +421,40 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 .img1pg3 {
-max-width: 450px;
-max-height: 450px;
+width: 225px;
+height: 225px;
 }
 
 .img2pg3 {
-  max-width: 450px;
-  max-height: 450px;
+  width: 225px;
+  height: 225px;
 }
 
 .img3pg3 {
-  max-width: 450px;
-  max-height: 450px;
+  width: 225px;
+  height: 225px;
 }
 
 .img4pg3 {
-  max-width: 450px;
-  max-height: 450px;
+  width: 225px;
+  height: 225px;
 }
 
 .img5pg3 {
-  max-width: 450px;
-  max-height: 450px;
+  width: 225px;
+  height: 225px;
 }
 
 .img6pg3 {
-  max-width: 450px;
-  max-height: 450px;
+  width: 225px;
+  height: 225px;
+}
+
+.text2 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "flowertxt" "pineappletxt" "triangletxt";
+  grid-gap: 1.5rem;
 }
 
   header {
@@ -525,3 +504,81 @@ max-height: 450px;
     transform: scale(1,1);
   }
 }
+
+@media screen and (min-width: 75em) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  .img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img2 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img4 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img5 {
+    width: 400px;
+    height: 400px;
+  }
+  .img6 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img7 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .imgpg2 {
+    width: 400px;
+    height: 500px;
+  }
+
+  .img2pg2 {
+    width: 400px;
+    height: 500px;
+  }
+
+  .img1pg3 {
+  width: 400px;
+  height: 400px;
+  }
+
+  .img2pg3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img3pg3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img4pg3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img5pg3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .img6pg3 {
+    width: 400px;
+    height: 400px;
